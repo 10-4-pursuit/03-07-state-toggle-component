@@ -1,0 +1,26 @@
+.slider-container.on .slider {
+    left: 100px;
+    background-color: greenyellow;
+}
+
+.slider-container.off .slider {
+    left: 0px;
+}
+
+.slider-container {
+    width: 200px;
+    height: 50px;
+    background-color: gray;
+    padding: 10px;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    transition: left 0.3s;
+}
